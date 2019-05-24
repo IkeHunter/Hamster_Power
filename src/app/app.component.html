@@ -3,7 +3,7 @@
       <div class="col-sm-2"></div>
       <div class="col-sm-8" id="big-box">
         <h1 class="col-sm-12" id="title">Hamster Power Converter</h1>
-        <form (ngSubmit)="onConvert(f)" class="form-inline col-sm-12" #f="ngForm">
+        <form (ngSubmit)="onConvert()" class="form-inline col-sm-12" #f="ngForm">
           <input
             type="number"
             placeholder="Enter number of hamsters"
@@ -23,7 +23,7 @@
     <div class="row">
       <div class="col-sm-3"></div>
       <div class="col-sm-6" id="ham-horse-num">
-        <h4><span id="ham-num">{{ number }}</span> Hamsters is equivalent to <span id="horse-num">{{ horse }}</span> Horse Power, or <span id="watt-num">{{ hamWatt }}</span>  Watts per second</h4>
+        <h4><span id="ham-num">{{ number }}</span> Hamsters is equivalent to <span id="horse-num">{{ horse }}</span> Horsepower, or <span id="watt-num">{{ hamWatt }}</span>  Watts per second</h4>
       </div>
       <div class="col-sm-3"></div>
     </div>
