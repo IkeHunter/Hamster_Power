@@ -1,0 +1,141 @@
+#title {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #0191AB;
+  position: relative;
+}
+
+#big-box {
+  margin-top: 20px;
+}
+
+input.ng-invalid.ng-touched {
+  border: 1px solid red !important;
+}
+
+#input {
+  border: 1px solid #00B2D3;
+  text-align: center;
+  position: relative;
+}
+
+button {
+  margin: 30px auto !important;
+  font-family: 'Indie Flower', cursive;
+  font-size: 85%;
+  letter-spacing: 0.20em;
+}
+
+.help-block {
+  text-align: center;
+  font-family: 'Unica One', cursive;
+  font-size: 18px;
+  position: absolute;
+  margin-top: -18px;
+  margin-left: -15px;
+}
+
+#ham-horse-num {
+  margin-top: 40px;
+  text-align: center;
+  color: #6C6C6C;
+}
+
+#stats-box {
+  margin-top: 30px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-name {
+  margin-top: 20px;
+  font-size: 24px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.stat-num {
+  font-size: 30px;
+  color: #6C6C6C;
+}
+
+#cars {
+  color: #E15611;
+}
+
+#stat-car-text {
+  color: #E15611;
+}
+
+#houses {
+  color: #E111DE;
+}
+
+#stat-house-text {
+  color: #E111DE;
+}
+
+#casinos {
+  color: #E8D814;
+}
+
+#stat-cas-text {
+  color: #E8D814;
+}
+
+.stat-text {
+  font-size: 10px;
+}
+
+span {
+  padding: 5px;
+}
+
+#ham-num {
+  color: #16F013;
+}
+
+#horse-num {
+  color: #FC9705;
+}
+
+#watt-num {
+  color: #F3FA59;
+}
+
+#same {
+  color: #6C6C6C;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Courgette', cursive;
+}
+
+p {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 50px;
+  color: #A9A9A9;
+}
+
+@media (max-width: 768px) {
+  button {
+    font-size: 70%;
+    text-align: center !important;
+  }
+
+  .help-block {
+    display: none;
+  }
+
+  .stat-name {
+    margin: 5px auto 0 auto;
+  }
+
+  .stat-text {
+    margin-bottom: 50px;
+  }
+}
+
+
