@@ -32,10 +32,10 @@ MIT
 @angular/forms
 MIT
 
-@angular/http
+@angular/platform-browser
 MIT
 
-@angular/platform-browser
+@angular/router
 MIT
 
 bootstrap

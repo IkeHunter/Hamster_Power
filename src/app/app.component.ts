@@ -14,17 +14,16 @@ export class AppComponent {
   car = 0;
   house = 0;
   cas = 0;
-  hamPwd = 0.0236;
+  hamPwd = 0.000012981;
   hamJoule = 0.00968;
   hrPwd = 0;
-  houseWatt = 0.0003428;
+  houseWatt = 0.3472;
   casWatt = 12.695;
   hamWatt = 0;
 
 
   onConvert() {
     this.number = this.converter.value.num;
-    this.number = this.sci(this.number);
 
     this.hamWatt = this.number * this.hamJoule;
     this.hamWatt = this.sci(this.hamWatt);
@@ -40,6 +39,8 @@ export class AppComponent {
 
     this.cas = this.number * (1 / (this.casWatt / this.hamJoule));
     this.cas = this.sci(this.cas);
+
+    this.number = this.sci(this.number);
   }
 
   sci(x) {

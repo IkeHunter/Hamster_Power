@@ -1,3 +1,7 @@
+.container-fluid {
+  width: 100% !important;
+}
+
 #title {
   font-family: 'Pacifico', cursive;
   text-align: center;
@@ -115,8 +119,11 @@ span {
 p {
   font-size: 10px;
   text-align: center;
-  margin-top: 50px;
   color: #A9A9A9;
+}
+
+#math {
+  margin-top: 35px;
 }
 
 @media (max-width: 768px) {
